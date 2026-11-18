@@ -1,5 +1,17 @@
+/* ============= Variables ================ */
+
+:root {
+  --color-bg: #070f1f;
+  --color-text: #e8ebf2;
+  --color-muted: #9aa3b5;
+  --color-accent: #22a95c;
+}
+
+/* ===========Base=================== */
+
 body {
-  background-color: #070f1f;
-  color: #e8ebf2;
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
   font-family: sans-serif;
 }
